@@ -1,0 +1,15 @@
+{
+  "name": "ssb-merge",
+  "description": "sbot plugin to merge ssb message content with a CRDT",
+  "version": "0.0.1",
+  "homepage": "https://github.com/av8ta/ssb-merge",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:av8ta/ssb-merge.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "author": "av8ta",
+  "license": "MIT"
+}
