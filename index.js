@@ -2,15 +2,15 @@
 exports.name = 'merge'
 exports.version = require('./package.json').version
 exports.manifest = {
-  get: 'async'
+  get: 'sync'
 }
 
 exports.init = function (ssb, config) {
-  return get
-
-  function get () {
-    console.log('ssb-merge')
+  return {
+    get: function (opts) {
+    console.log('ssb-merge-running-as-plugin')
     return 'ssb-merge'
+    }
   }
 
 }
